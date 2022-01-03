@@ -10,4 +10,7 @@ def nb_year(p0, percent, aug, p):
         yearCount += 1;
     return yearCount;
 
-print ("", nb_year(1000, 2, 50, 1200));
+print ("nb_year(1000, 2, 50, 1200)", nb_year(1000, 2, 50, 1200));
+print ("nb_year(1500, 5, 100, 5000)", nb_year(1500, 5, 100, 5000));
+# print ("", nb_year(1000, 2, 50, 1200));
+# print ("", nb_year(1000, 2, 50, 1200));
