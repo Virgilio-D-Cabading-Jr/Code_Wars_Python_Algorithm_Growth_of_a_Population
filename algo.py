@@ -12,5 +12,5 @@ def nb_year(p0, percent, aug, p):
 
 print ("nb_year(1000, 2, 50, 1200)", nb_year(1000, 2, 50, 1200));
 print ("nb_year(1500, 5, 100, 5000)", nb_year(1500, 5, 100, 5000));
-# print ("", nb_year(1000, 2, 50, 1200));
-# print ("", nb_year(1000, 2, 50, 1200));
+print ("nb_year(1500000, 2.5, 10000, 2000000)", nb_year(1500000, 2.5, 10000, 2000000));
+# print ("", );
