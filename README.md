@@ -18,3 +18,14 @@ More generally given parameters:
 2. the function nb_year should return n number of entire years needed to get a population greater or equal to p.
 
 3. aug is an integer, percent a positive or null floating number, p0 and p are positive integers (> 0)
+
+Note:
+
+1. Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.
+
+--------------------
+
+## Sample output
+
+1. nb_year(1500, 5, 100, 5000) -> 15
+2. nb_year(1500000, 2.5, 10000, 2000000) -> 10
